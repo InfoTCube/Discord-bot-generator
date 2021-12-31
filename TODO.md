@@ -21,7 +21,6 @@
             - [ ] humans <count(max 100)>
             - [ ] bots <count(max 100)>
             - [ ] text <count(max 100)>
-        - [ ] 
     - [ ] Modertation
         - [ ] kick <user/id> (reason)
         - [ ] ban <user/id> (reason)
@@ -88,9 +87,8 @@
         - [ ] guess-me <name>
     - [ ] Info
         - [ ] info
-        - [ ] uptime
+        - [x] uptime
         - [ ] help
-        - [ ] author
     - [ ] Others
         - [ ] remindme <time> (text)
         - [ ] alert

@@ -20,7 +20,6 @@ getDirectories('./src/commands', function (err, result) {
         client.commands = new Collection();
 
         for(const file of commandFiles) {
-            console.log(file)
             const command  = require(`${'../'.repeat(((file.match('/\//g')||[]).size-3))}.${file}`);
             commands.push(command.data.toJSON());
             client.commands.set(command.data.name, command);
