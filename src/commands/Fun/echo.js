@@ -6,11 +6,11 @@ module.exports = {
         .setDescription('Echos your input')
         .addStringOption((option) => 
             option
-                .setName('message')
-                .setDescription('The message to echo')
+                .setName('text')
+                .setDescription('Text to echo')
                 .setRequired(true)
         ),
     async execute(interaction) {
-        interaction.reply(interaction.options.getString('message'));
+        interaction.reply(interaction.options.getString('text'));
     }
 }

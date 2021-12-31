@@ -6,16 +6,28 @@ const { Routes } = require('discord-api-types/v9');
 const signale = require('signale');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 const fs = require('fs');
+const glob = require("glob");
 
-const commandFiles = fs.readdirSync('./src/commands').filter(file => file.endsWith('.js'));
-const commands = [];
-client.commands = new Collection();
+var getDirectories = function (src, callback) {
+    glob(src + '/**/*', callback);
+};
+var commands = [];
+getDirectories('./src/commands', function (err, result) {
+    if (err) {
+        signale.fatal('Error', err);
+    } else {
+        const commandFiles = result.filter(file => file.endsWith('.js'));;
+        client.commands = new Collection();
 
-for(const file of commandFiles) {
-    const command  = require(`../src/commands/${file}`);
-    commands.push(command.data.toJSON());
-    client.commands.set(command.data.name, command);
-}
+        for(const file of commandFiles) {
+            console.log(file)
+            const command  = require(`${'../'.repeat(((file.match('/\//g')||[]).size-3))}.${file}`);
+            commands.push(command.data.toJSON());
+            client.commands.set(command.data.name, command);
+        }
+    }
+});
+
 
 client.once('ready', () => {
     client.user.setPresence({

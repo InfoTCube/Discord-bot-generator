@@ -1,0 +1,117 @@
+(inspired by: dyno, carl, GAwesomeBot)
+ - [ ] Commands
+    - [ ] Managing
+        - [ ] mentionable <role/id>
+        - [ ] rolecolor <role/id> <hex>
+        - [ ] rolename <roled/id> <new-name>
+        - [ ] setnick <user/id> <new-nick>
+        - [ ] botnick <new-nick>
+        - [ ] listmods
+        - [ ] archive <count(max 1500)>
+        - [ ] purge <count(max 1000)> (user/id)
+            - [ ] match <count(max 100)> <text>
+            - [ ] not <count(max 100)> <text>
+            - [ ] startswith <count(max 100)> <text>
+            - [ ] endswith <count(max 100)> <text>
+            - [ ] links <count(max 100)>
+            - [ ] invites <count(max 100)>
+            - [ ] images <count(max 100)>
+            - [ ] mentions <count(max 100)>
+            - [ ] embeds <count(max 100)>
+            - [ ] humans <count(max 100)>
+            - [ ] bots <count(max 100)>
+            - [ ] text <count(max 100)>
+        - [ ] 
+    - [ ] Modertation
+        - [ ] kick <user/id> (reason)
+        - [ ] ban <user/id> (reason)
+        - [ ] mute <user/id> <time> (reason)
+        - [ ] unban <user/id> (reason)
+        - [ ] unmute <user/id> (reason)
+        - [ ] warn <user/id> (reason)
+        - [ ] delwarn <warningID>
+        - [ ] clearwarns <user/id>
+        - [ ] history <user/id>
+        - [ ] reason <caseID> (new-reason)
+        - [ ] note <user/id> <text>
+        - [ ] clearnotes <user/id>
+        - [ ] lock <channel/id> (time) (reason)
+        - [ ] unlock <channel/id> (reason)
+        - [ ] globallock (reason)
+        - [ ] globalunlock (reason)
+        - [ ] temprole <user/id> <time> <role/id> (reason)
+    - [ ] Users/Roles/Emojis/etc...
+        - [ ] roles
+        - [ ] roleinfo <role/id>
+        - [ ] whois <user/id>
+        - [ ] emojis
+        - [ ] serverinfo
+        - [ ] discrim <discrim>
+        - [ ] membercount
+        - [ ] avatar <user/id>
+        - [ ] invite
+    - [ ] Fun
+        - [ ] distance <cord1> <cord2>
+        - [x] color <hex>
+        - [ ] dog
+        - [ ] cat
+        - [ ] rps <choice>
+        - [ ] roll (from-to)
+        - [x] flip
+        - [ ] github <link/name>
+        - [ ] fact
+        - [ ] meme
+        - [ ] gif
+        - [ ] google <text>
+        - [ ] lmgtfy <text>
+        - [ ] stackoverflow <text>
+        - [x] ping
+        - [x] echo
+        - [ ] choose <choices(max 15)>
+        - [ ] 8ball (text)
+        - [ ] clap <text>
+        - [ ] smallcaps <text>
+        - [ ] space <character/emoji> <text>
+        - [ ] emoji <text>
+        - [ ] spoiler <text>
+        - [ ] calc <math-expression>
+        - [ ] image <text>
+        - [ ] joke
+        - [ ] numfact <number>
+        - [ ] qr <link/text>
+        - [ ] shorten <link>
+        - [ ] time <place>
+        - [ ] weather <place>
+        - [ ] wiki <text>
+        - [ ] year
+        - [ ] youtube <text>
+        - [ ] guess-me <name>
+    - [ ] Info
+        - [ ] info
+        - [ ] uptime
+        - [ ] help
+        - [ ] author
+    - [ ] Others
+        - [ ] remindme <time> (text)
+        - [ ] alert
+
+ - [ ] Modules
+    - [ ] Suggestions
+    - [ ] Welcome and leave messages
+    - [ ] Logs
+    - [ ] Reaction roles
+    - [ ] Notifications
+    - [ ] Posts
+    - [ ] Pools
+    - [ ] Announcements
+    - [ ] Connect roles
+    - [ ] Counting
+    - [ ] Giveaways
+    - [ ] Tickets
+    - [ ] Events
+
+- Future
+    - Economy
+    - Music
+    - Automod
+    - Games
