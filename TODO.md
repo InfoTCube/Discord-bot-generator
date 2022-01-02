@@ -76,7 +76,7 @@
         - [ ] calc <math-expression>
         - [ ] image <text>
         - [ ] joke
-        - [ ] numfact <number>
+        - [x] numfact <number>
         - [ ] qr <link/text>
         - [ ] shorten <link>
         - [ ] time <place>
