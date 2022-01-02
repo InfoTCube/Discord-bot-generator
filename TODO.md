@@ -52,8 +52,8 @@
     - [ ] Fun
         - [ ] distance <cord1> <cord2>
         - [x] color <hex>
-        - [ ] dog
-        - [ ] cat
+        - [x] dog
+        - [x] cat
         - [ ] rps <choice>
         - [ ] roll (from-to)
         - [x] flip
