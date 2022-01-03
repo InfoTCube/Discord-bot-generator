@@ -55,12 +55,12 @@
         - [x] dog
         - [x] cat
         - [x] rps <choice>
-        - [ ] roll (from-to)
+        - [x] roll (from-to)
         - [x] flip
         - [ ] github <link/name>
         - [x] fact
-        - [ ] meme
-        - [ ] gif
+        - [x] meme
+        - [x] gif
         - [x] google <text>
         - [x] lmgtfy <text>
         - [x] stackoverflow <text>
