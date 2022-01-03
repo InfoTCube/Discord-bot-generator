@@ -61,9 +61,9 @@
         - [x] fact
         - [ ] meme
         - [ ] gif
-        - [ ] google <text>
-        - [ ] lmgtfy <text>
-        - [ ] stackoverflow <text>
+        - [x] google <text>
+        - [x] lmgtfy <text>
+        - [x] stackoverflow <text>
         - [x] ping
         - [x] echo
         - [ ] choose <choices(max 15)>
