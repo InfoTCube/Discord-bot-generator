@@ -54,11 +54,11 @@
         - [x] color <hex>
         - [x] dog
         - [x] cat
-        - [ ] rps <choice>
+        - [x] rps <choice>
         - [ ] roll (from-to)
         - [x] flip
         - [ ] github <link/name>
-        - [ ] fact
+        - [x] fact
         - [ ] meme
         - [ ] gif
         - [ ] google <text>
@@ -75,7 +75,7 @@
         - [ ] spoiler <text>
         - [ ] calc <math-expression>
         - [ ] image <text>
-        - [ ] joke
+        - [x] joke
         - [x] numfact <number>
         - [ ] qr <link/text>
         - [ ] shorten <link>

@@ -21,7 +21,6 @@ module.exports = {
                 .setDescription(fact);
             interaction.reply({ embeds: [embed] });  
         } catch (e) {
-            console.log(e);
             interaction.reply({
                 content: 'Something went wrong.',
                 ephemeral: true,

@@ -4,15 +4,15 @@ const { default: axios } = require("axios");
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('dog')
-        .setDescription('Get random dog picture'),
+        .setName('fact')
+        .setDescription('Get a random fact'),
     async execute(interaction) {
-        const data = await (await axios.get(`https://dog.ceo/api/breeds/image/random`)).data;
+        const data = await (await axios.get(`https://uselessfacts.jsph.pl/random.json?language=en`)).data;
         const embed = new MessageEmbed()
-            .setColor('FUCHSIA')
-            .setTitle('🐶🐶🐶')
-            .setImage(data.message)
-            .setFooter(`image from dog.ceo`);
+            .setColor('RANDOM')
+            .setTitle('Fact')
+            .setDescription(data.text)
+            .setFooter('data from uselessfacts.jsph.pl');
         interaction.reply({ embeds: [embed] });
     }
 }
