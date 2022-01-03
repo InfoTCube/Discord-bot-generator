@@ -42,7 +42,7 @@
     - [ ] Users/Roles/Emojis/etc...
         - [ ] roles
         - [ ] roleinfo <role/id>
-        - [ ] whois <user/id>
+        - [x] whois <user/id>
         - [ ] emojis
         - [ ] serverinfo
         - [ ] discrim <discrim>

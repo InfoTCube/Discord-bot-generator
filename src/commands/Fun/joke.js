@@ -17,7 +17,7 @@ module.exports = {
                     .setDescription(data.setup)
                     .setFooter('data from jokeapi.dev');
                 interaction.reply({ embeds: [embedSet] });
-                await wait(1500);
+                await new Promise(resolve => setTimeout(resolve, 5000));
                 const embedDel = new MessageEmbed()
                     .setColor('RANDOM')
                     .setDescription(data.delivery)
