@@ -1,6 +1,6 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed } = require("discord.js");
-const moment= require('moment');
+const moment = require('moment');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -28,7 +28,7 @@ module.exports = {
                 { name: 'ID', value: user.id, inline: true},
                 { name: `Roles [${roles.length}]`, value: roles.join(', ') },
                 { name: `Permissions`, value: perms.join(', ').toLowerCase() },
-                );
+            );
         interaction.reply({ embeds: [embed] });
     }
 }
