@@ -7,7 +7,7 @@ module.exports = {
         .setName('meme')
         .setDescription('Get a random meme'),
     async execute(interaction) {
-        const data = await (await axios.get(`https://meme-api.herokuapp.com/gimme`)).data;
+        const data = await (await axios.get(`https://meme-api.com/gimme`)).data;
         const embed = new MessageEmbed()
             .setColor('NOT_QUITE_BLACK')
             .setTitle("meme")

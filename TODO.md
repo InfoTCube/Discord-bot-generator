@@ -43,10 +43,10 @@
         - [ ] roles
         - [ ] roleinfo <role/id>
         - [x] whois <user/id>
-        - [ ] emojis
+        - [x] emojis
         - [ ] serverinfo
         - [ ] discrim <discrim>
-        - [ ] membercount
+        - [x] membercount
         - [ ] avatar <user/id>
         - [ ] invite
     - [ ] Fun
